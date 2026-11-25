@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.131] - 2026-11-25
+### Changed
+- Admin page now built with Vite instead of create-react-app (npm audit: 180 warnings including 6 critical -> 0)
+- Removed unused admin-page packages (oidc-client, merge)
+- SignalR client 5 -> 10, uuid 8 -> 11
+- Pages and design unchanged
+
 ## [0.12.130] - 2026-11-25
 ### Changed
 - Backend moved to .NET 10 (LTS, supported to Nov 2028)

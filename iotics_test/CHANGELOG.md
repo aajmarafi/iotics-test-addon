@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.130] - 2026-11-25
+### Changed
+- Backend moved to .NET 10 (LTS, supported to Nov 2028)
+- Fixed all known vulnerable NuGet packages (AutoMapper 16, MySqlConnector 2.6, newer EF Core 9 / Identity)
+- Removed unused IdentityServer, SQL Server and code-generator packages
+- Add-on image is now Ubuntu 24.04 (MariaDB 10.11 as before)
+
 ## [0.12.129] - 2026-11-25
 ### Changed
 - Shorter folder names: the add-on is now 'iotics' (folder <code>_iotics, e.g. 514a2486_iotics) with the database in 'database' and the backup copies in 'backup'

@@ -1,7 +1,7 @@
 {
   "name": "Iotics (test)",
-  "version": "0.12.128",
-  "slug": "iotics_test",
+  "version": "0.12.129",
+  "slug": "iotics",
   "image": "aliajmarafi/iotics-test",
   "description": "Iotics controller - private test builds",
   "url": "https://github.com/aajmarafi/iotics-test-addon",

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.129] - 2026-11-25
+### Changed
+- Shorter folder names: the add-on is now 'iotics' (folder <code>_iotics, e.g. 514a2486_iotics) with the database in 'database' and the backup copies in 'backup'
+- Existing folders from 0.12.128 or /share are moved automatically on first start
+- Because the short name changed, Home Assistant treats this as a new add-on: uninstall the old Iotics (test) and install the new one
+
 ## [0.12.128] - 2026-11-25
 ### Changed
 - Database now lives in the add-on's own configuration folder: Home Assistant's uninstall toggle 'Also delete the app's configuration folder' works like the app's 'Delete database?' toggle (on = delete the database and its backup, off = keep them)

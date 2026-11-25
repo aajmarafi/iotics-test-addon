@@ -4,7 +4,7 @@
   "slug": "iotics_test",
   "image": "aliajmarafi/iotics-test",
   "description": "Iotics controller - private test builds",
-  "url": "https://iotics.live",
+  "url": "https://github.com/aajmarafi/iotics-test-addon",
   "webui": "https://[HOST]:[PORT:4443]/",
   "arch": ["amd64"],
   "startup": "system",

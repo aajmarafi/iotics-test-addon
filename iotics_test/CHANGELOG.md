@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.127] - 2026-11-25
+### Changed
+- Uninstall from the app with 'Delete database?' ON now removes the database and its backup (/share/iotics and /share/iotics_database_backup) for a clean reinstall
+- With the toggle OFF the database is kept exactly as it is (before, it was deleted and rebuilt from the last backup), and a fresh backup is made first
+
 ## [0.12.126] - 2026-11-25
 ### Changed
 - Fix: Stop/Update/Restart now shuts the add-on down cleanly (app, then database) instead of being force-killed after 10 s, which showed as Error (exit code 137)

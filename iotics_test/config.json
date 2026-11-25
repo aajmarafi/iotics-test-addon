@@ -1,0 +1,27 @@
+{
+  "name": "Iotics (test)",
+  "version": "0.12.125",
+  "slug": "iotics_test",
+  "image": "aliajmarafi/iotics-test",
+  "description": "Iotics controller - private test builds",
+  "url": "https://iotics.live",
+  "webui": "https://[HOST]:[PORT:4443]/",
+  "arch": ["amd64"],
+  "startup": "system",
+  "init": false,
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
+  "apparmor": true,
+  "map": ["config:rw", "share:rw", "backup:rw", "media:rw"],
+  "options": {},
+  "schema": {},
+  "ports": {
+    "4443/tcp": 4443
+  },
+  "ports_description": {
+    "4443/tcp": "iotics controller"
+  },
+  "host_network": "false"
+}

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.132] - 2026-11-25
+### Changed
+- Login tokens are checked exactly as before the .NET 10 upgrade
+- Automatic start-up test of the whole add-on (database, backend, admin page) before each test build
+
 ## [0.12.131] - 2026-11-25
 ### Changed
 - Admin page now built with Vite instead of create-react-app (npm audit: 180 warnings including 6 critical -> 0)

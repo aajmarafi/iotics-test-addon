@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.128] - 2026-11-25
+### Changed
+- Database now lives in the add-on's own configuration folder: Home Assistant's uninstall toggle 'Also delete the app's configuration folder' works like the app's 'Delete database?' toggle (on = delete the database and its backup, off = keep them)
+- Existing data is moved automatically from /share on first start (old folders renamed to .moved-<date>, not deleted)
+- Uses Home Assistant's current folder mapping (no more 'deprecated map option config' warning)
+
 ## [0.12.127] - 2026-11-25
 ### Changed
 - Uninstall from the app with 'Delete database?' ON now removes the database and its backup (/share/iotics and /share/iotics_database_backup) for a clean reinstall

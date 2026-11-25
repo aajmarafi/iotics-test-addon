@@ -1,6 +1,6 @@
 {
   "name": "Iotics (test)",
-  "version": "0.12.127",
+  "version": "0.12.128",
   "slug": "iotics_test",
   "image": "aliajmarafi/iotics-test",
   "description": "Iotics controller - private test builds",
@@ -15,7 +15,7 @@
   "hassio_role": "default",
   "homeassistant_api": true,
   "apparmor": true,
-  "map": ["config:rw", "share:rw", "backup:rw", "media:rw"],
+  "map": ["addon_config:rw", "homeassistant_config:rw", "share:rw", "backup:rw", "media:rw"],
   "options": {},
   "schema": {},
   "ports": {

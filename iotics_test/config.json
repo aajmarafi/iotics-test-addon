@@ -1,6 +1,6 @@
 {
   "name": "Iotics (test)",
-  "version": "0.12.125",
+  "version": "0.12.126",
   "slug": "iotics_test",
   "image": "aliajmarafi/iotics-test",
   "description": "Iotics controller - private test builds",
@@ -10,6 +10,7 @@
   "startup": "system",
   "init": false,
   "boot": "auto",
+  "timeout": 60,
   "hassio_api": true,
   "hassio_role": "default",
   "homeassistant_api": true,

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.126] - 2026-11-25
+### Changed
+- Fix: Stop/Update/Restart now shuts the add-on down cleanly (app, then database) instead of being force-killed after 10 s, which showed as Error (exit code 137)
+- Add-on stop timeout 60 s
+- Blue add-on icon and logo
+
 ## [0.12.125] - 2026-11-25
 ### Changed
 - Fix: System page showed Disconnected after a successful Home Assistant login on the test add-on

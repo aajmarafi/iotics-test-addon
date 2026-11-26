@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.136] - 2026-11-26
+### Changed
+- Test build without code changes, to test updating the controller from the app's System page (progress ring)
+
 ## [0.12.135] - 2026-11-26
 ### Changed
 - Fix: updating the Supervisor from the app failed (Home Assistant has no backup option for Supervisor updates, but the controller asked for one)

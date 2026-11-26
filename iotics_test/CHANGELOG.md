@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.133] - 2026-11-26
+### Changed
+- System page info (Home Assistant, Supervisor, OS and controller versions) answers much faster: the four Home Assistant questions are asked at the same time, the optional date/time sensors wait at most 3 s (was 10 s), and the add-on store is reloaded at most every 10 minutes instead of on every refresh
+- Fix: messages to Home Assistant are sent one at a time (a WebSocket allows only one send at once); before, two requests at the same moment could make one fail
+
 ## [0.12.132] - 2026-11-25
 ### Changed
 - Login tokens are checked exactly as before the .NET 10 upgrade

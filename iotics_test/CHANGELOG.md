@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.134] - 2026-11-26
+### Changed
+- New: the app can send a new push-notification token for a phone (POST user_devices/update_token), so notifications keep arriving after the phone changes its token instead of stopping until the next login
+
 ## [0.12.133] - 2026-11-26
 ### Changed
 - System page info (Home Assistant, Supervisor, OS and controller versions) answers much faster: the four Home Assistant questions are asked at the same time, the optional date/time sensors wait at most 3 s (was 10 s), and the add-on store is reloaded at most every 10 minutes instead of on every refresh

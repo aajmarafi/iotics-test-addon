@@ -6,10 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## TODO
+
+## [0.12.135] - 2026-11-26
+### Changed
 - Fix: updating the Supervisor from the app failed (Home Assistant has no backup option for Supervisor updates, but the controller asked for one)
-- Fix: updating the controller itself from the app did nothing when the add-on isn't called "Iotics" (e.g. "Iotics (test)"): it now finds its own Home Assistant update entry instead of a fixed name
-- Fix: update requests (Home Assistant, Supervisor, OS, controller) no longer wait until Home Assistant has finished the whole update (which made the app show "failed" while the update was running); they answer as soon as Home Assistant has accepted it
-- New: the System page info includes the live update progress from Home Assistant (in progress + percentage) for Home Assistant, Supervisor, OS and the controller
+- Fix: updating the controller itself from the app did nothing when the add-on isn't called Iotics (e.g. Iotics (test)) - it now finds its own Home Assistant update entry
+- Fix: update requests (Home Assistant, Supervisor, OS, controller) answer as soon as Home Assistant has accepted them instead of waiting for the whole update (the app showed failed while the update was running)
+- New: the System page info includes the live update progress from Home Assistant (in progress + percentage)
 
 ## [0.12.134] - 2026-11-26
 ### Changed
@@ -2336,11 +2339,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Adding timeout for connecting to Home Assistant
 - Change Clock to be without `Iotics` prefix for login page
-
-## [0.12.135] - 2026-11-26
-### Changed
-- Fix: updating the Supervisor from the app failed (Home Assistant has no backup option for Supervisor updates, but the controller asked for one)
-- Fix: updating the controller itself from the app did nothing when the add-on isn't called Iotics (e.g. Iotics (test)) - it now finds its own Home Assistant update entry
-- Fix: update requests (Home Assistant, Supervisor, OS, controller) answer as soon as Home Assistant has accepted them instead of waiting for the whole update (the app showed failed while the update was running)
-- New: the System page info includes the live update progress from Home Assistant (in progress + percentage)
-

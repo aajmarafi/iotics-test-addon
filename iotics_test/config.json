@@ -1,6 +1,6 @@
 {
   "name": "Iotics (test)",
-  "version": "0.12.136",
+  "version": "0.12.137",
   "slug": "iotics",
   "image": "aliajmarafi/iotics-test",
   "description": "Iotics controller - private test builds",

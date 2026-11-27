@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## TODO
 
+## [0.12.137] - 2026-11-27
+### Changed
+- Fix: after restoring a Home Assistant backup the controller didn't start (its database files came back without the permissions the database needs, so MariaDB stopped with Permission denied) - the controller now fixes the permissions on every start
+
 ## [0.12.136] - 2026-11-26
 ### Changed
 - Test build without code changes, to test updating the controller from the app's System page (progress ring)
